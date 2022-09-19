@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+}
+.menu__login {
+  background: url(../src/components/img/ff4833eaff820171a44d504d688191a0.jpg) ;
+  background-size: 100%;
+  width: 204.9vh;
+  height: 100vh;
+  position: absolute;
+  float: left;
+}
+.main, h1 {
+  color:white;
+}
+
+#logo3035{
+  background-image: url(./components/img/logo3035.png);
+  height: 4vh;
+  width: 31.9vh;
+  margin-left: 5vh;
+  margin-top: 5vh;
+  position:absolute;
+}
+.main {
+  width: 70vh;
+  height: 55vh;
+  margin-top: 10%;
+  margin-left:33%;
+  border:1px;
+  background:black;
+  opacity: 90%;
+  border-radius: 10px;
+}
+.entrar {
+  font-weight: bold;
+  padding-top: 4vh;
+  font-size: 5vh;
+  border: 2vh;
+  margin-left: 7%;
+}
+#linha {
+  height: 8px;
+  background-image: linear-gradient(to right ,white 7%, #4C1691 5%, #4C1691 27%, white 10%, white 100%);
+  position: absolute;
+  width: 34.1%;
+} 
+
+#margem {
+  padding-top: 35px;
+}
+#margem2 {
+  padding-bottom:10px;
+}
+.usuario__container {
+  border-color: white;
+  background-color: black;
+  margin-left: 7%;
+  width: 75%;
+  padding: 2vh;
+  border-radius: 1vh;
+  background-image: url('./components/img/Vector.png');
+  background-repeat: no-repeat;
+  background-position: 3%;
+  padding-left: 8%;
+  color: white;
+}
+.senha__container {
+  border-color: white;
+  background-color: black;
+  margin-left: 7%;
+  width: 75%;
+  padding: 2vh;
+  border-radius: 1vh;
+  margin-top: 5vh;
+  background-image: url('./components/img/Vector2.png');
+  background-repeat: no-repeat;
+  background-position: 3%;
+  padding-left: 8%;
+  color: white;
+}
+.botao__container{ 
+  width: 86%;
+  padding: 5%;
+  margin-top: 3%;
+  margin-left: 7%;
+  border-radius: 1vh;
+  background-color: #4C1691;
+  font-size: 2.5vh;
+  font-weight: bold;
+  color: white;
+}
